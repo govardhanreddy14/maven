@@ -20,3 +20,4 @@ sh label: '', script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/weba
 	{
 sh label: '', script: 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war   ubuntu@172.31.28.143:/var/lib/tomcat8/webapps/prodenv.war'
 	}
+}
